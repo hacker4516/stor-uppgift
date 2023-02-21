@@ -1,0 +1,120 @@
+body {
+  font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+  }
+  
+header {
+  background-color: rgb(57, 77, 56);
+  color: #fff;
+  padding: 20px;
+}
+  
+header h1 {
+  margin: 0;
+}
+  
+header nav {
+  text-align: right;
+}
+  
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  
+header nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+  
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+  
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+  
+main h2 {
+  margin-top: 10px;
+}
+  
+main ul {
+  list-style:disc;
+  margin: 20px;
+  width: 45%;
+}
+
+main ol {
+  margin: 20px;
+  width:50%
+}
+  
+.listafärg1  {
+  margin-bottom: -5px;
+  cursor:auto;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: rgb(255, 103, 103);
+  font-size: 17px;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+.listafärg2 {
+  margin-bottom: -5px;
+  cursor:auto;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: rgb(228, 255, 109);
+  font-size: 25px;
+  transition: 0.2s;
+  border-radius: 25px;
+}
+  
+  .kitchenbild{
+    width: 15%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .kladdig{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  footer {
+    background-color: rgb(57, 77, 56);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+  }
+  
+  footer h1 {
+    margin: 0;
+  }
+    
+  footer nav {
+    text-align: center;
+  }
+    
+  footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+    
+  footer nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+    
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+  }
